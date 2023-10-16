@@ -1,0 +1,141 @@
+/* Resentando o css */
+/* Resentando o css */
+*{
+    margin: 0; /* Margem */
+    padding: 0; /* Espaço interno */
+}
+
+
+body{
+    background-color:rgb(138, 194, 231) /* Muda a cor do fundo */
+}
+
+header,
+main,
+footer,
+main{
+    padding: 60px; /* Espaço no conteúdo */
+    width: 800px; /* Largura */
+    margin: 0 auto;
+}
+
+
+footer{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 100px;
+    color: rgb(8, 4, 4);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    color: rgb(33, 21, 21); /* Cor do texto */
+    font-weight: bold; /* Define negrito ou não do texto */
+    font-size: 4em; /* Tamanho da fonte. 4x mais que o padrão */
+    font-family: 'Dancing Script', cursive; /* Define a fonte */
+    text-shadow: 4px 3px 4px rgb(137, 181, 213); /* Cor da sombra */
+    line-height: 4px; /* Espaço entre linhas */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+
+h2{
+    font-style: italic; /* Texto em itálico */
+    font-size: 17px; /* Tamanho da fonte. Em px fica fixo */
+    text-align: center; /* Centraliza o texto */
+    margin: 15px auto;
+}
+
+
+a{
+    text-decoration: none; /* Desativa/ ativa o sublinhado dos links */
+    color: rgb(13, 123, 214);
+    text-shadow: 1px 1px 1px rgb(64, 190, 212);
+    cursor: pointer;
+}
+
+
+.msg-erro{
+    visibility: hidden; /* Oculta o texto */
+    line-height: 3px;
+}
+
+
+.menu{
+    list-style: none; /* Desativa as imagens dos marcadores */
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+    text-shadow: 2px 2px 2px rgb(13, 104, 190);
+    display: flex; /* Coloca os elementos filhos inline (em linha) */
+    justify-content: space-around; /* Alinhamento dos elemementos filhos */
+    width: 800px; /* Largura */
+    margin: 0 auto;
+}
+.formulario{
+    list-style: none;
+    line-height: 25px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.album-fotos{
+    width: 25vw; /*largura*/
+    height: auto; /*Altura: automática */
+    margin: 15px auto;
+    border-width: 1px; /* Largura da borda */
+    border-style: double; /* Estilo da linha da borda */
+    border-color:blue; /* Cor da borda*/
+    border-radius: 10px; /* Arredonda a borda */
+    justify-content: center;
+
+}
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+h3{
+    font-family: 'DM Serif Display', serif;
+    text-shadow: 4px 3px 4px rgb(39, 195, 219);
+    margin: 20px auto;
+    padding: 10px;
+}
+
+
+
+input[type=email]{
+    background-color: rgb(123, 255, 244);
+}
+
+
+input[type=file]{
+    background-color: lightgrey;
+}
+
+
+header{
+    width: 800px; /*Largura */
+    margin: 0 auto;
+}
+
+
+
+
+
+button{
+    background-color: rgb(118, 233, 223);
+    color: rgb(141, 248, 234);
+    width: 150px;
+    font-size: 1.2em; /*Tamanho da fonte: 16px * 1.2 = 19,2 */
+    padding: 5px; /*Espaço ao redor do conteúdo interno */
+    margin: 10px; /* ESpaço ao redor do elemento externo */
+    border-radius: 20px; /* Arredonda as borda */
+    border: 0px; /*Desativa a borda das caixas */
+}
